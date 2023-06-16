@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bd_1" id="5060D1B2-084F-7C16-6775-9335E10625B0" version="3.5">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:30:49 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5060D1B2-084F-7C16-6775-9335E10625B0</designId>
+</OSDM_Design>
