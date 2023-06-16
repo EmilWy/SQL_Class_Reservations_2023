@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE45DE28-30AA-5127-75D1-ACE3E9F3CD3F" name="Address">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:08:03 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Adress_id" id="1CB2232E-A6CB-A19A-3001-6021943E031E">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:08:08 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="6AB00A61-9C19-962B-FBEF-97355B0E5BB1">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:08:19 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postal_Code" id="62190FEB-F396-9F9E-C684-40EF6CA2A39E">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:08:47 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="11D78428-9551-6E9D-6DEE-FEE75BFD7EBA">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:09:22 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Building_id" id="7B6B6D65-AC5D-F336-ADB0-BC763E68968C">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:10:41 UTC</createdTime>
+<generatorID>ADD8918C-FB28-2FED-B28A-C23A10CDCA80</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<referedAttribute>D3A150ED-663A-BCC7-0395-F9E643432568</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7038189-ED5E-74B2-ACAC-87D827F54C46" name="Address PK">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:08:18 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CB2232E-A6CB-A19A-3001-6021943E031E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

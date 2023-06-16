@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E60B6ED-514D-1E96-FDE8-72B7B9DA1115" name="Student">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:34:00 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Student_id" id="C66C0204-2397-0699-AF77-DB81F49F39C6">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:34:07 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="652D3DCF-3809-6D7C-092E-ED73FC3B580B">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:34:57 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="FD2E9D70-A222-B739-0274-A2E0FC7C3727">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:35:55 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Major_id" id="097B2FE5-40D7-B7EE-BD7A-50443D8B1D68">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 18:04:34 UTC</createdTime>
+<generatorID>50A27D4F-C4E4-F23A-7FE4-1D972194DC27</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8E9138A4-9B85-0897-871C-930AC79B8814</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ECTS_total" id="39118914-AA47-FB20-9AC2-6E330326C0B3">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:20:28 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01B838AE-4C6F-40E5-72FD-BC24EDF0900B" name="Student PK">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:34:39 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="85D077B1-89F8-564E-B39C-0650F3354FC1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C66C0204-2397-0699-AF77-DB81F49F39C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

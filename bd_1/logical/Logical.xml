@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BF9AA9BE-8FD7-872F-C77D-E00F9323D618" mainViewID="9CFBE700-36FB-B65B-499F-25DB0AF64AAA">
+<createdBy>emili</createdBy>
+<createdTime>2023-05-28 17:30:49 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

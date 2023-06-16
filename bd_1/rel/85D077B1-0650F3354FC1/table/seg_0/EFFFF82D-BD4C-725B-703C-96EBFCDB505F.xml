@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFFFF82D-BD4C-725B-703C-96EBFCDB505F" name="Classroom">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>086E9A60-F15F-1178-DD6C-912D6880456C</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Classroom_id" id="F58C0F6C-DEC5-0622-C80F-5F3EEC6C137A">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>5E782618-C9C8-BCF3-B9F0-112AD7982139</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Classroom_Number" id="A34A5763-4058-F7E1-BBDC-57FA34C5B44B">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>193066FB-0E42-FE45-A462-0DAA6905A359</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avaliable" id="6D4D1BA7-834C-18AE-1DC3-3AF1994A3B72">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>027C7E8D-4305-0F1E-7B95-C1E2A520BC39</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building_Building_id" id="A39A28B1-AFB2-75D9-6840-4187603D5D49">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>5D216385-ABE3-B020-6843-AD767D46208E</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA302087-E930-7235-9F22-07C1E7774AFB" referredColumn="0E4CF5CB-AB6E-03A2-D63A-50978394F209"/>
+</associations>
+</Column>
+<Column name="Number_of_seats" id="0264C23F-22F7-A22C-237A-3186DDDA7211">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>68E03221-1936-769A-2222-7556DE9A57B1</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A08316EC-F5E4-5341-2D4A-94078D771088" name="Classroom_PK">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>28DA6DB7-6E9D-8456-B9AD-D97B245DFEB5</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58C0F6C-DEC5-0622-C80F-5F3EEC6C137A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE569EB-E77E-5B6F-555C-E0CD0BC0838A" name="Classroom_Building_FK">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>059A6C6C-FC58-3944-45A1-6100EA213312</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A39A28B1-AFB2-75D9-6840-4187603D5D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

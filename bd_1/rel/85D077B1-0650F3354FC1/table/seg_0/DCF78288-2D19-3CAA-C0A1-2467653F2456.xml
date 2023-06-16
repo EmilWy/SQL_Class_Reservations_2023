@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCF78288-2D19-3CAA-C0A1-2467653F2456" name="COURSE_EMPLOYEE">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_Employee_id" id="79044569-3742-2C08-435E-627B0C7FB555">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F0793CD-165D-919E-0FEE-770863B3D547" referredColumn="6072E87F-A618-78DA-62C1-AFFDF2993B23"/>
+</associations>
+</Column>
+<Column name="Course_Course_id" id="3FD7F24D-010D-DB91-768D-542EB13D3BBC">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBAB031E-5454-6F2C-C714-EAF87BBD99BF" referredColumn="2F060D3A-42E1-8462-3C41-AD87C15B4CA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90225F85-9E0F-0472-E486-45E4B0E4B712" name="Relation_3_PK">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<ownerDesignName>bd_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79044569-3742-2C08-435E-627B0C7FB555"/>
+<colUsage columnID="3FD7F24D-010D-DB91-768D-542EB13D3BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31A912CD-04DF-CC58-A20D-3E3607465B8B" name="Relation_3_Employee_FK">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>3694E8E5-8C88-949F-F5F2-74383AA38FD5</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79044569-3742-2C08-435E-627B0C7FB555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88A244F6-C510-CFD3-AD0D-2E5609C4B057" name="Relation_3_Course_FK">
+<createdBy>emili</createdBy>
+<createdTime>2023-06-15 16:23:14 UTC</createdTime>
+<generatorID>3694E8E5-8C88-949F-F5F2-74383AA38FD5</generatorID>
+<ownerDesignName>bd_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FD7F24D-010D-DB91-768D-542EB13D3BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
