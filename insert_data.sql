@@ -1,8 +1,8 @@
 -- BUILDING
-INSERT INTO BUILDING (NAME) VALUES ('Wydzial‚ EITI');
-INSERT INTO BUILDING (NAME) VALUES ('Wydzial‚ MEiL');
-INSERT INTO BUILDING (NAME) VALUES ('Wydzial‚ WZ');
-INSERT INTO BUILDING (NAME) VALUES ('Wydzial‚ Matematyki');
+INSERT INTO BUILDING (NAME) VALUES ('Wydzial EITI');
+INSERT INTO BUILDING (NAME) VALUES ('Wydzial MEiL');
+INSERT INTO BUILDING (NAME) VALUES ('Wydzial WZ');
+INSERT INTO BUILDING (NAME) VALUES ('Wydzial Matematyki');
 
 -- ADDRESS
 INSERT INTO ADDRESS (street, postal_code, city, building_id) VALUES ('Warynskiego', '00-500', 'Warszawa', 1);
@@ -47,7 +47,7 @@ INSERT INTO COURSE (name, ects) VALUES ('Programowanie', 6);
 -- STUDENT
 INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Jan', 'Nowak', 1, 196);
 INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Katarzyna', 'Kowalczyk', 2, 140);
-INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Michal‚', 'Adamczyk', 3, 180);
+INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Michal', 'Adamczyk', 3, 180);
 INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Alicja', 'Wisniewska', 4, 220);
 INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Wojciech', 'Kowalczyk', 1, 200);
 INSERT INTO STUDENT (name, surname, major_id, ects_total) VALUES ('Barbara', 'Kaminska', 2, 140);
